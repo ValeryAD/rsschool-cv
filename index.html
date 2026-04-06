@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valery Daroska CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#heading-contacts">Contacts</a></li>
+          <li><a href="#heading-about-me">About me</a></li>
+          <li><a href="#heading-skills">Skills</a></li>
+          <li><a href="#heading-code">Code</a></li>
+          <li><a href="#heading-experience">Experience</a></li>
+          <li><a href="#heading-languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="cv-section-container">
+        <img src="assets/CV_photo.jpeg" alt="Valery photo" width="200" height="200">
+        <div>
+          <h1>Valery Daroshka</h1>
+          <h2>Junior Frontend Developer</h2>
+        </div>
+      </div>
+      <div class="cv-section-container">
+        <h3 id="heading-contacts">Contact information</h3>
+        <ul>
+          <li><b>Location:</b> Minsk, Belarus</li>
+          <li><b>Email:</b>doroshkovalery@gmail.com</li>
+          <li><a href="https://github.com/ValeryAD">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="cv-section-container">
+        <h3 id="heading-about-me">About me</h3>
+        <p>I am an automation QA who, due to project needs, is often involved in manual testing and accessibility bug testing. My goal is to become a front-end developer because I am truly inspired by this profession. I see real magic in the ability to transform ideas through code, expressions, tags into something tangible, helpful, something that people can see, touch, and use. The journey is not simple, but I am confident that I have the persistence to succeed.</p>
+      </div>
+      <div class="cv-section-container">
+        <h3 id="heading-skills">Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS/SASS</li>
+          <li>JavaScript (Basic)</li>
+          <li>Git</li>
+          <li>Selenium</li>
+          <li>JAVA</li>
+        </ul>
+      </div>
+      <div class="cv-section-container">
+        <h3 id="heading-code">Code example</h3>
+        <pre>
+            <code>
+let buttons = document.querySelectorAll(".tools_panel>button");
+  const outlineElement = function(buttons, buttonText) {
+    buttons.forEach(btn => {
+      if(btn.innerText === buttonText) {
+        btn.style.outline="solid";
+      }
+    })
+}
+outlineElement(buttons, 'More');
+          </code>
+        </pre>
+      </div>
+      <div class="cv-section-container">
+        <h3 id="heading-experience">Work experience</h3>
+        <ul>
+          <li>4.5 years of automation testing in JAVA, combined with manual testing and accessibility bugs testing</li>
+        </ul>
+      </div>
+      <div class="cv-section-container">
+        <h3 id="heading-languages">Languages</h3>
+        <ul>
+          <li><b>Russian</b> - Native</li>
+          <li><b>English</b> - B1+</li>
+        </ul>
+      </div>
+
+    </main>
+    <footer>
+      <a href="https://github.com/ValeryAD">GitHub</a>
+      <div>2026</div>
+      <a href="https://rs.school/courses/javascript"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/78abefa42ee2c50401e2e6adcb5122e6aa7de9bb/tasks/cv/rs-school-logo.svg" alt="RS school logo" width="138" height="51"></a>
+    </footer>
+  </body>
+</html>
